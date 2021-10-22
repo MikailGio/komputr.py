@@ -33,6 +33,6 @@
 
 #n=int (input('Enter n value:'))
 for i in range(5):
-    print(' '*(5-i-1)+'* '*(i+1))
+    print(' '*(-i-1)+'* '*(i+1))
 for i in range(5-1):
     print(' '*(i+1)+'* '*(5-i-1))
